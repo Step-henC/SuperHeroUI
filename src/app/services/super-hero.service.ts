@@ -18,14 +18,5 @@ export class SuperHeroService {
     return this.http.get<SuperHero[]>(`${environment.apiUrl}/${this.url}`)
 
 
-    // no longer need to hard code hero with http client calling our UI
-    // let hero = new SuperHero();
-    // hero.id = 1;
-    // hero.name = "Spider Man";
-    // hero.firstName = "Peter";
-    // hero.lastName = "Parker";
-    // hero.place = "New York City"
-
-    //return [hero];
   }
 }

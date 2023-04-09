@@ -18,4 +18,4 @@
         </tr>
     </tbody>
 </table>
-<app-edit-heroes [hero]="heroToEdit"></app-edit-heroes>
+<app-edit-heroes [hero]="heroToEdit" (heroesUpdated)="updateHeroList($event)"></app-edit-heroes>
